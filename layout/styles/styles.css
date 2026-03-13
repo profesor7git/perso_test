@@ -1,0 +1,67 @@
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "ww";
+  src:url("fonts/ww.woff") format("woff"),
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "ww" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "ww" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  vertical-align:-10%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-poland:before {
+  content: "\61";
+}
+.icon-france:before {
+  content: "\62";
+}
+.icon-spain:before {
+  content: "\63";
+}
+.icon-new-york:before {
+  content: "\64";
+}
+.icon-mountains:before {
+  content: "\66";
+}
+.icon-tennis-ball:before {
+  content: "\65";
+}
+.icon-six-pool-balls:before {
+  content: "\67";
+}
+.icon-nc:before {
+  content: "\68";
+}
+.icon-pa:before {
+  content: "\69";
+}
+.icon-nj:before {
+  content: "\6A";
+}
